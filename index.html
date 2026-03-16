@@ -24,8 +24,8 @@ html { scroll-behavior:smooth; }
   --hr-rule:   rgba(28,26,22,0.10);
   --hr-rule2:  rgba(28,26,22,0.22);
   --hr-red:    #b84233;
-  --hr-dim:    rgba(28,26,22,0.50);
-  --hr-faint:  rgba(28,26,22,0.28);
+  --hr-dim:    rgba(28,26,22,0.68);
+  --hr-faint:  rgba(28,26,22,0.45);
 
   /* Games — Sumi/cyberpunk dark */
   --gm-bg:     #0a0a12;
@@ -145,7 +145,7 @@ body.mode-games .chrome-kofi:hover { color:var(--gm-amber); }
 .hr-title em { font-style:italic; color:var(--hr-dim); }
 .hr-rule-line { width:56px; height:1px; background:var(--hr-rule2); margin:24px 0; }
 .hr-desc {
-  max-width:500px; font-size:18px; font-weight:300;
+  max-width:500px; font-size:18px; font-weight:400;
   color:var(--hr-dim); line-height:1.85;
 }
 .hr-desc strong { color:var(--hr-ink); font-weight:400; }
@@ -174,7 +174,7 @@ body.mode-games .chrome-kofi:hover { color:var(--gm-amber); }
 .hr-card:hover::after { border-color:transparent var(--hr-red) transparent transparent; }
 .hr-card .ct    { font-family:var(--mono); font-size:7px; letter-spacing:0.22em; text-transform:uppercase; color:var(--hr-faint); margin-bottom:14px; }
 .hr-card .ctitle { font-family:var(--serif-en); font-size:21px; font-weight:400; line-height:1.25; margin-bottom:10px; }
-.hr-card .cdesc { font-family:var(--serif-en); font-size:14px; font-weight:300; color:var(--hr-dim); line-height:1.8; flex:1; margin-bottom:20px; }
+.hr-card .cdesc { font-family:var(--serif-en); font-size:14px; font-weight:400; color:var(--hr-dim); line-height:1.8; flex:1; margin-bottom:20px; }
 .hr-card .cdesc em { color:var(--hr-ink); font-style:italic; }
 .hr-card .cfoot { display:flex; align-items:center; justify-content:space-between; padding-top:14px; border-top:1px solid var(--hr-rule); }
 .hr-card .ctags { display:flex; gap:6px; flex-wrap:wrap; }
@@ -188,7 +188,7 @@ body.mode-games .chrome-kofi:hover { color:var(--gm-amber); }
 }
 .hr-coming-label {
   font-family:var(--mono); font-size:9px; letter-spacing:0.3em;
-  text-transform:uppercase; color:var(--hr-faint);
+  text-transform:uppercase; color:var(--hr-dim);
   border-bottom:1px solid var(--hr-rule); padding-bottom:16px; margin-bottom:40px;
 }
 .hr-soon-grid {
@@ -213,12 +213,12 @@ body.mode-games .chrome-kofi:hover { color:var(--gm-amber); }
   margin-bottom:8px; color:var(--hr-ink);
 }
 .hr-soon-type {
-  font-family:var(--mono); font-size:7px; letter-spacing:0.2em;
-  text-transform:uppercase; color:var(--hr-faint); margin-bottom:12px;
+  font-family:var(--mono); font-size:7px; letter-spacing:0.22em;
+  text-transform:uppercase; color:var(--hr-dim); margin-bottom:12px;
 }
 .hr-soon-desc {
-  font-family:var(--serif-en); font-size:13px; font-weight:300;
-  color:var(--hr-faint); line-height:1.75;
+  font-family:var(--serif-en); font-size:14px; font-weight:400;
+  color:var(--hr-dim); line-height:1.8;
 }
 .hr-soon-badge {
   display:inline-block; margin-top:16px;
@@ -442,12 +442,15 @@ body.mode-games .chrome-kofi:hover { color:var(--gm-amber); }
         </div>
       </a>
 
-      <div class="hr-soon-card reveal">
-        <div class="hr-soon-type">Resource Allocation · Strategy</div>
-        <div class="hr-soon-title">HRBP Strategy Simulator</div>
-        <div class="hr-soon-desc">Twelve weeks. Finite resources. Competing priorities. The embedded HRBP's real constraint: you cannot do everything. So what do you actually choose?</div>
-        <span class="hr-soon-badge">Coming Soon</span>
-      </div>
+      <a class="hr-card reveal" href="https://samirsaad786.github.io/comp-decoder/" target="_blank">
+        <div class="ct">Salary Negotiation · Career Tool</div>
+        <div class="ctitle">Comp Decoder</div>
+        <div class="cdesc">Decode any job offer. Input base, bonus, equity, and benefits — see your true total comp, where it lands in the market, and exactly what to ask for. <em>Built from analysis of over 1,000 real offers and leading industry compensation research.</em></div>
+        <div class="cfoot">
+          <div class="ctags"><span class="ctag">Salary</span><span class="ctag">Negotiation</span><span class="ctag">Total Comp</span></div>
+          <span class="ccta">Open →</span>
+        </div>
+      </a>
 
       <div class="hr-soon-card reveal">
         <div class="hr-soon-type">M&amp;A · Change Management</div>
