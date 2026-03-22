@@ -1,69 +1,62 @@
-<!-- SAMIR SAAD — GitHub Profile README v3 -->
+# samirsaad786.github.io
 
-<div align="center">
+> Thinking tools for practitioners. Browser games built to last.
 
-# Samir Saad
+This is the source for my personal portfolio site — a collection of interactive HR simulations and browser games, all built as single-file HTML5 with no backend, no install, and no friction.
 
-**HR Business Partner · Organizational Development · Builder**
-
-[LinkedIn](https://www.linkedin.com/in/saadsamir/) · [Ko-fi](https://ko-fi.com/samirsaad) · [Portfolio](https://samirsaad786.github.io/)
-
-</div>
+🔗 [Visit the site](https://samirsaad786.github.io/)
 
 ---
 
-I'm an HR practitioner by trade. But at some point I got curious about what I could build — and I stopped waiting for someone to give me permission to find out.
+## What's Here
 
-That curiosity led me to build interactive tools that make leadership and organizational behavior tangible. Simulations. Games. Things you can actually *feel* rather than just read about. Most of it I figured out as I went, using AI as a thinking partner and collaborator. None of it required a computer science degree. It required showing up and not talking myself out of it.
+### 🧠 HR Tools & Simulations
 
-This repository is the record of that.
+Interactive tools built for HR practitioners, people leaders, and organizational development professionals.
 
----
+| Tool | Description |
+|------|-------------|
+| [The Hire Wire](https://samirsaad786.github.io/the-hire-wire) | Leadership judgment game — hire a team on a $500K budget, then face 9 months of real workplace scenarios |
+| [The Behavior Gap](https://samirsaad786.github.io/behavior-gap-game/) | Simulation on why training rarely changes behavior — and what the four forces that actually shape it are |
+| [Team Dynamics Puzzle](https://samirsaad786.github.io/Team-Dynamics/) | Belbin-informed team composition tool with honest critique of role-balance frameworks built in |
+| [HR Sanity Check](https://samirsaad786.github.io/hr-sanity-check/) | Diagnostic for HR practitioners and managers — are you solving the right problems? |
+| [Comp Decoder](https://samirsaad786.github.io/comp-decoder/) | Total compensation calculator and negotiation guide built from 1,000+ real offer analyses |
+| [M&A Leadership Simulator](https://samirsaad786.github.io/mergers-acquisitions/) | Navigate integration decisions, cultural friction, and communication timing post-merger |
+| [TrueRecord](https://samirsaad786.github.io/truerecord/) | Privacy-first grievance reporting portal with cryptographic audit chain — no server, no backend |
 
-## The thing I keep coming back to
+### 🎮 Browser Games
 
-Organizations spend enormous energy waiting — for the right budget, the right mandate, the right moment. People do the same thing. They wait for someone to tell them it's okay to build, to try, to lead.
+Single-file HTML5 games built with Web Audio, hand-written narrative, and procedural systems.
 
-Nobody's coming with that permission slip.
-
-Self-leadership isn't a soft skill. It's a decision you make about whether you're going to be a spectator in your own professional life or not. And I try to practice it myself — imperfectly, openly, in public.
-
----
-
-## What I've learned by building
-
-- **Curiosity compounds.** The first thing you ship teaches you more than five years of reading about it.
-- **AI is a collaborator, not a shortcut.** The quality of what you build with it depends entirely on the quality of your thinking going in.
-- **Making something interactive forces honesty.** You can't hide vague ideas behind good slides when someone has to *play* the concept.
-- **The gap between "I could never do that" and doing it is mostly just starting.**
-
----
-
-## What I do
-
-I'm an HR Business Partner and OD practitioner with an SPHR and an MS in Human Resource Development. I'm curious about leadership development, organizational design, and the stubborn gap between what organizations say they value and what their systems actually reward.
-
-I also build things — simulations, diagnostic tools, browser games — that make complex people-system dynamics playable. You can find them at [samirsaad786.github.io](https://samirsaad786.github.io/).
+| Game | Genre |
+|------|-------|
+| [Sumi's Journal 墨の日誌](https://samirsaad786.github.io/sumis_journal/) | Puzzle / Narrative / Roguelike — cyberpunk signal routing with procedural gamelan music |
+| [NULLZONE](https://samirsaad786.github.io/nullzone/) | Block Puzzle / Cyberpunk — Tetris meets 1010! inside a hacking narrative |
+| [Sunlit Hollow](https://samirsaad786.github.io/SunlitHollow/) | Idle / Cozy — grow a mystical forest with procedural ambient audio and a rebirth system |
+| [The Mirror Pool](https://samirsaad786.github.io/mirror-pool/) | Puzzle / Folklore — kitsune tile-swap with dual-world mechanics |
+| [UFO Raider](https://samirsaad786.github.io/ufo-raider/) | Arcade / Synthwave — side-scroller with escalating wanted level and combo multipliers |
+| [Lumen Office RPG](https://samirsaad786.github.io/LumenOfficeRPG/) | Narrative RPG / Horror — corporate mystery with sanity mechanics and four endings |
 
 ---
 
-## Let's talk if you're
+## How It's Built
 
-- Building something at the intersection of HR, learning, and technology
-- Curious about applying AI to organizational development
-- Working on leadership development that actually changes behavior
-- Just tired of waiting for permission and want to think out loud with someone who gets it
+The site itself is a single HTML file with no framework, no build process, and no dependencies. All tools and games follow the same philosophy — everything runs in the browser, nothing is tracked, nothing leaves the device.
 
----
+```
+samirsaad786.github.io/
+└── index.html    ← The entire portfolio site
+```
 
-<div align="center">
-
-*You don't need a title to lead. You just need to decide.*
-
-**[→ samirsaad786.github.io](https://samirsaad786.github.io/)**
+Hosted via **GitHub Pages** from the `main` branch.
 
 ---
 
-📎 [linkedin.com/in/saadsamir](https://www.linkedin.com/in/saadsamir/) &nbsp;·&nbsp; ☕ [ko-fi.com/samirsaad](https://ko-fi.com/samirsaad)
+## About
 
-</div>
+Built by **Samir Saad** — HR Business Partner, SPHR, MS in Human Resource Development.
+
+I build these because a simulation can demonstrate what a slide deck cannot — if it's honest about complexity and makes the player feel the weight of the decision.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-saadsamir-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/saadsamir/)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20my%20work-FF5E5B?style=flat&logo=ko-fi)](https://ko-fi.com/samirsaad)
