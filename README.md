@@ -36,6 +36,7 @@ Single-file HTML5 games built with Web Audio, hand-written narrative, and proced
 | [The Mirror Pool](https://samirsaad786.github.io/mirror-pool/) | Puzzle / Folklore — kitsune tile-swap with dual-world mechanics |
 | [UFO Raider](https://samirsaad786.github.io/ufo-raider/) | Arcade / Synthwave — side-scroller with escalating wanted level and combo multipliers |
 | [Lumen Office RPG](https://samirsaad786.github.io/LumenOfficeRPG/) | Narrative RPG / Horror — corporate mystery with sanity mechanics and four endings |
+| [Lofi Room](https://samirsaad786.github.io/lofi-room/) | Idle / A single-file browser lofi music player with a cozy attic aesthetic |
 
 ---
 
